@@ -1,11 +1,5 @@
 <!-- Messenger Chat Plugin Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
+   
       var chatbox = document.getElementById('fb-customer-chat');
       chatbox.setAttribute("page_id", "113286140538355");
       chatbox.setAttribute("attribution", "biz_inbox");
@@ -24,4 +18,4 @@
         js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
-    </script>
+    
